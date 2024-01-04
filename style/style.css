@@ -1,0 +1,66 @@
+body {
+    font-family: "Comfortaa", sans-serif
+}
+.bg-main {
+    background-color: #e2ccb8;
+}
+
+.bg-second {
+    background-color: #ab0010;
+}
+
+.jumbotron {
+    height: 400px;
+    position: relative;
+    padding: 2rem 1rem;
+    background: transparent;
+}
+
+.jumbotron h1 {
+    font-size: 10vw;
+}
+
+.center-div {
+    position: relative;
+    font-size: 4vw;
+    text-align: center;
+    font-style: italic;
+    padding: 1em 0 1em 0;
+    top: 50%;
+    translate: translateY(-50%);
+}
+
+.btn-primary {
+    background-color: #FD7E14 !important;
+    border-color: #FFE5D0;
+}
+
+.btn-primary:hover {
+    background-color: #984C0C !important;
+    border-color: #FD7E14;
+}
+
+@media only screen and (min-width: 600px) { 
+    .jumbotron { 
+        height: 450px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .jumbotron { 
+        height: 550px;
+    }
+    .jumbotron h1 {
+        font-size: 7vw;
+    }
+    .center-div { 
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (min-width: 1366px) { 
+    .jumbotron { 
+        height: 100vh;
+    }
+}
+
